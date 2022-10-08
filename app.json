@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "pocket-med",
+    "slug": "pocket-med",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
