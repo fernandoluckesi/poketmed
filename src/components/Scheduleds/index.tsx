@@ -1,9 +1,6 @@
 import React from 'react';
 import { Container, List } from './styles';
-import {
-  ListItemQueries,
-  ListItemQueriesProps,
-} from '../../components/ListItemQueries';
+import { ListItemQueries, ListItemQueriesProps } from '../ListItemQueries';
 
 const dataList: ListItemQueriesProps[] = [
   {
@@ -71,7 +68,7 @@ const dataList: ListItemQueriesProps[] = [
   },
 ];
 
-export function Scheduled() {
+export function Scheduleds() {
   return (
     <Container>
       <List

@@ -29,9 +29,14 @@ interface Props {
   isDoneBtn: boolean;
 }
 
-export function ListItemQueries({ data, marginFooter, isDoneBtn }: Props) {
+export function ListItemQueries({
+  data,
+  marginFooter,
+  isDoneBtn,
+  ...rest
+}: Props) {
   return (
-    <Container marginFooter={marginFooter}>
+    <Container marginFooter={marginFooter} {...rest}>
       <MainContentBox>
         <Header>
           <Title>{data.title}</Title>
